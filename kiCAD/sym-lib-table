@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name EEPROM)(type Legacy)(uri ${KIPRJMOD}/EEPROM.lib)(options "")(descr ""))
+  (lib (name MOSFET_Drivers)(type Legacy)(uri "${KIPRJMOD}/MOSFET Drivers.lib")(options "")(descr ""))
+  (lib (name Power_and_Buck_Converters)(type Legacy)(uri "${KIPRJMOD}/Power and Buck Converters.lib")(options "")(descr ""))
+  (lib (name TMC2209)(type Legacy)(uri ${KIPRJMOD}/TMC2209.lib)(options "")(descr ""))
+  (lib (name USB_Protector)(type Legacy)(uri ${KIPRJMOD}/USB_Protector.lib)(options "")(descr ""))
+)
