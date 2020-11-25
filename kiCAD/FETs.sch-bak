@@ -512,17 +512,6 @@ Wire Notes Line
 Wire Notes Line
 	650  1950 650  5700
 $Comp
-L Device:Q_NMOS_GDS Q2
-U 1 1 5FDF6091
-P 5100 2000
-F 0 "Q2" V 5050 2100 39  0000 L CNN
-F 1 "Q_NMOS_GDS" V 5350 1800 39  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2" H 5300 2100 50  0001 C CNN
-F 3 "~" H 5100 2000 50  0001 C CNN
-	1    5100 2000
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Q_NMOS_GSD Q1
 U 1 1 5FDF7022
 P 4950 4100
@@ -559,34 +548,8 @@ Wire Wire Line
 	5200 2300 5200 2250
 Text GLabel 4550 1650 1    50   Input ~ 0
 HEATER0_BUFF
-$Comp
-L Device:LED_Small D13
-U 1 1 5FE01FA4
-P 4800 1500
-F 0 "D13" V 4850 1450 39  0000 R CNN
-F 1 "LED_Small" V 4700 1500 39  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4800 1500 50  0001 C CNN
-F 3 "~" V 4800 1500 50  0001 C CNN
-	1    4800 1500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small_US R56
-U 1 1 5FE028B9
-P 4800 1200
-F 0 "R56" V 4850 1250 39  0000 L CNN
-F 1 "2.2k" V 4850 1050 39  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4800 1200 50  0001 C CNN
-F 3 "~" H 4800 1200 50  0001 C CNN
-	1    4800 1200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4800 1400 4800 1300
 Wire Wire Line
 	5200 1800 5200 1700
-Wire Wire Line
-	4800 1700 4800 1600
 $Comp
 L power:+24V #PWR0112
 U 1 1 5FE09A86
@@ -600,8 +563,6 @@ F 3 "" H 5200 1000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5200 1000 5200 1050
-Wire Wire Line
-	4800 1050 4800 1100
 $Comp
 L Device:C_Small C138
 U 1 1 5FE10D24
@@ -676,16 +637,10 @@ Wire Wire Line
 Connection ~ 5350 1700
 Wire Wire Line
 	5350 1700 5600 1700
-Wire Wire Line
-	4800 1700 5150 1700
 Connection ~ 5200 1700
-Connection ~ 5150 1700
 Wire Wire Line
 	5150 1700 5200 1700
-Wire Wire Line
-	4800 1050 5150 1050
 Connection ~ 5200 1050
-Connection ~ 5150 1050
 Wire Wire Line
 	5150 1050 5200 1050
 Wire Wire Line
@@ -748,34 +703,8 @@ Wire Wire Line
 	6850 2300 6850 2250
 Text GLabel 6200 1650 1    50   Input ~ 0
 HEATER1_BUFF
-$Comp
-L Device:LED_Small D18
-U 1 1 5FE7521C
-P 6450 1500
-F 0 "D18" V 6500 1450 39  0000 R CNN
-F 1 "LED_Small" V 6350 1500 39  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6450 1500 50  0001 C CNN
-F 3 "~" V 6450 1500 50  0001 C CNN
-	1    6450 1500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small_US R60
-U 1 1 5FE75222
-P 6450 1200
-F 0 "R60" V 6500 1250 39  0000 L CNN
-F 1 "2.2k" V 6500 1050 39  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6450 1200 50  0001 C CNN
-F 3 "~" H 6450 1200 50  0001 C CNN
-	1    6450 1200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6450 1400 6450 1300
 Wire Wire Line
 	6850 1800 6850 1700
-Wire Wire Line
-	6450 1700 6450 1600
 $Comp
 L power:+24V #PWR0122
 U 1 1 5FE7522B
@@ -789,8 +718,6 @@ F 3 "" H 6850 1000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6850 1000 6850 1050
-Wire Wire Line
-	6450 1050 6450 1100
 $Comp
 L Device:C_Small C142
 U 1 1 5FE75233
@@ -865,16 +792,10 @@ Wire Wire Line
 Connection ~ 7000 1700
 Wire Wire Line
 	7000 1700 7250 1700
-Wire Wire Line
-	6450 1700 6800 1700
 Connection ~ 6850 1700
-Connection ~ 6800 1700
 Wire Wire Line
 	6800 1700 6850 1700
-Wire Wire Line
-	6450 1050 6800 1050
 Connection ~ 6850 1050
-Connection ~ 6800 1050
 Wire Wire Line
 	6800 1050 6850 1050
 Wire Wire Line
@@ -937,34 +858,8 @@ Wire Wire Line
 	8450 2300 8450 2250
 Text GLabel 7800 1650 1    50   Input ~ 0
 HEATER2_BUFF
-$Comp
-L Device:LED_Small D25
-U 1 1 5FE912FA
-P 8050 1500
-F 0 "D25" V 8100 1450 39  0000 R CNN
-F 1 "LED_Small" V 7950 1500 39  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8050 1500 50  0001 C CNN
-F 3 "~" V 8050 1500 50  0001 C CNN
-	1    8050 1500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small_US R64
-U 1 1 5FE91300
-P 8050 1200
-F 0 "R64" V 8100 1250 39  0000 L CNN
-F 1 "2.2k" V 8100 1050 39  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8050 1200 50  0001 C CNN
-F 3 "~" H 8050 1200 50  0001 C CNN
-	1    8050 1200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8050 1400 8050 1300
 Wire Wire Line
 	8450 1800 8450 1700
-Wire Wire Line
-	8050 1700 8050 1600
 $Comp
 L power:+24V #PWR0131
 U 1 1 5FE91309
@@ -978,8 +873,6 @@ F 3 "" H 8450 1000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8450 1000 8450 1050
-Wire Wire Line
-	8050 1050 8050 1100
 $Comp
 L Device:C_Small C144
 U 1 1 5FE91311
@@ -1054,16 +947,10 @@ Wire Wire Line
 Connection ~ 8600 1700
 Wire Wire Line
 	8600 1700 8850 1700
-Wire Wire Line
-	8050 1700 8400 1700
 Connection ~ 8450 1700
-Connection ~ 8400 1700
 Wire Wire Line
 	8400 1700 8450 1700
-Wire Wire Line
-	8050 1050 8400 1050
 Connection ~ 8450 1050
-Connection ~ 8400 1050
 Wire Wire Line
 	8400 1050 8450 1050
 Wire Wire Line
@@ -2311,4 +2198,15 @@ Wire Wire Line
 Connection ~ 8400 5550
 Wire Wire Line
 	8400 5550 8650 5550
+$Comp
+L Device:Q_NMOS_GDS Q2
+U 1 1 5FDF6091
+P 5100 2000
+F 0 "Q2" V 5050 2100 39  0000 L CNN
+F 1 "Q_NMOS_GDS" V 5350 1800 39  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 5300 2100 50  0001 C CNN
+F 3 "~" H 5100 2000 50  0001 C CNN
+	1    5100 2000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

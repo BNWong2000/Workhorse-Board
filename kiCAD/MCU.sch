@@ -310,17 +310,6 @@ F 3 "~" H 9100 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C18
-U 1 1 5FAEA53B
-P 9500 1150
-F 0 "C18" V 9550 1200 39  0000 L CNN
-F 1 "100n" V 9550 950 39  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9500 1150 50  0001 C CNN
-F 3 "~" H 9500 1150 50  0001 C CNN
-	1    9500 1150
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C17
 U 1 1 5FAEAA39
 P 9250 1150
@@ -329,17 +318,6 @@ F 1 "1u" V 9300 1000 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9250 1150 50  0001 C CNN
 F 3 "~" H 9250 1150 50  0001 C CNN
 	1    9250 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C19
-U 1 1 5FAEABE3
-P 9650 1150
-F 0 "C19" V 9700 1200 39  0000 L CNN
-F 1 "1u" V 9700 1000 39  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9650 1150 50  0001 C CNN
-F 3 "~" H 9650 1150 50  0001 C CNN
-	1    9650 1150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -354,26 +332,6 @@ Wire Wire Line
 	9100 1000 9250 1000
 Wire Wire Line
 	9250 1000 9250 1050
-Wire Wire Line
-	9500 1050 9500 1000
-Wire Wire Line
-	9500 1000 9650 1000
-Wire Wire Line
-	9650 1000 9650 1050
-Wire Wire Line
-	9650 1250 9650 1400
-Wire Wire Line
-	9650 1400 9500 1400
-Wire Wire Line
-	9500 1400 9500 1250
-Wire Wire Line
-	9250 1000 9500 1000
-Connection ~ 9250 1000
-Connection ~ 9500 1000
-Wire Wire Line
-	9500 1400 9250 1400
-Connection ~ 9500 1400
-Connection ~ 9250 1400
 Wire Wire Line
 	9050 1000 9100 1000
 Connection ~ 9050 1000
